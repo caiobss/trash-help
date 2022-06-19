@@ -1,0 +1,301 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=PT+Sans&family=Rubik&display=swap');
+
+:root{
+    --background1: #272932;
+    --background2: #30323E;
+    --background3: #424556;
+    --cordetexto: #F4F4F4;
+    --corbotao: #529e61;
+    --corbotaohover: #2f5537;
+    --font2: 'Rubik', sans-serif;
+    --font1: 'PT Sans', sans-serif;
+    --font3: 'Mukta', sans-serif;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: var(--font1);
+    color: var(--cordetexto);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*Barra de navegação*/
+
+header{
+    top: 0%;
+    left: 0%;
+    position: fixed;
+    background-color: var(--background1);
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 150;
+    border-bottom: 1px solid var(--background3);
+}
+
+header .logo{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+header .logo-img{
+    height: 100%;
+}
+
+header a{
+    padding-left: .5rem;
+}
+
+header .menu{
+    padding: 0 5%;
+}
+
+header .menu a{
+    padding: 0 1rem;
+    text-decoration: none;
+}
+
+.bnt{
+    background-color: var(--corbotao);
+    border: none;
+    border-radius: 25px;
+    padding: 0.2rem 1.5rem;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.bnt:hover{
+    background-color: var(--corbotaohover);
+}
+
+/*conteudo do banner*/
+
+.banner{
+    position: relative;
+    background-color: var(--background1);
+    height: 98vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.banner-content{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 50%;
+    transform: translate(0%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4%;
+}
+
+.banner-content .banner-txt{
+    width: 60%;
+}
+
+.banner-content .banner-txt h1{
+    color: rgb(243, 240, 240);
+    padding-bottom: 2rem;
+    font-size: 3rem;
+}
+
+.banner-content .banner-txt p{
+    font-family: var(--font2);
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+.banner-content .banner-txt .home-bnt{
+    letter-spacing: 2px;
+    font-size: 1rem;
+    padding: .6rem 2rem;
+}
+
+.banner-content .social-media{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-content .social-media i{
+    background-color: var(--corbotao);
+    border-radius: 50%;
+    font-size: 1.5rem;
+    padding: .8rem;
+    margin: 1rem 0;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.banner-content .social-media i:hover{
+    background-color: var(--corbotaohover);
+}
+
+.banner img{
+    opacity: .5;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+/*Sessão da equipe*/
+
+.section-team{
+    padding-top: 8vh;
+    background-color: var(--background3);
+    height: 75vh;
+    width: 100%;
+}
+
+.header-txt{
+    padding: .5% 0;
+    text-align: center;
+}
+
+.team-content{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.team-txt{
+    display: flex;
+    align-items: center;
+    width:95%;
+    height: 30%;
+}
+
+.team-txt hr{
+    height: 100%;
+}
+
+.team-txt p{
+    font-size: 20px;
+    padding: 0 6%;
+}
+
+/*Sessão de problemas*/
+
+.section-problems{
+    padding-top: 8vh;
+    background-color: var(--background2);
+    width: 100%;
+}
+
+.problem{
+    display: flex;
+    align-items: center;
+    width: 92%;
+    margin: 0 auto;
+    padding: 3% 0;
+}
+
+.problem img{
+    object-fit: cover;
+    height: 40%;
+    width: 40%;
+    border-radius: 20px;
+}
+
+.problem .problem-txt{
+    padding: 0 2%;
+}
+
+.problem-txt h1{
+    padding: 1% 0;
+}
+
+/*sessão de soluções*/
+
+.section-solutions{
+    padding-top: 8vh;
+    background-color: var(--background3);
+    width: 100%;
+}
+
+.solutions{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 3% 0;
+}
+
+.solution{
+    position: relative;
+    background-color: var(--background2);
+    height: 15rem;
+    width: 23.9rem;
+    margin: 1.7%;
+    border-radius: 0 0 20px 20px;
+}
+
+.solution img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 0 0 20px 20px;
+    opacity: .8;
+    transition: .3s;
+}
+
+.solution .solution-txt{
+    position: absolute;
+    bottom: 0%;
+    left: 5%;
+    z-index: 100;
+    opacity: 0;
+    transition: .3s;
+}
+
+.solution:hover img{
+    opacity: .5;
+}
+
+.solution:hover .solution-txt{
+    bottom: 30%;
+    opacity: 1;
+}
+
+/*Sessão de doação*/
+
+.section-donate{
+    padding-top: 8vh;
+    background-color: var(--background2);
+}
+
+.donete-content{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.donete-content p{
+    padding: 0 25%;
+    margin-bottom: 5%;
+}
+
+.bnt-doar{
+    padding: .6rem 4rem;
+}
+
+/*footer da página*/
+
+footer{
+    background-color: var(--background3);
+}
