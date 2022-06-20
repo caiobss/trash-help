@@ -163,7 +163,7 @@ header .menu a{
 }
 
 .team-content{
-    height: 80%;
+    height: 72%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -236,8 +236,8 @@ header .menu a{
 .solution{
     position: relative;
     background-color: var(--background2);
-    height: 15rem;
-    width: 23.9rem;
+    height: 15.6rem;
+    min-width: 29%;
     margin: 1.7%;
     border-radius: 0 0 20px 20px;
 }
@@ -298,4 +298,51 @@ header .menu a{
 
 footer{
     background-color: var(--background3);
+    height: 45vh;
+    width: 100%;
+    padding: 0 6%;
+}
+
+.footer-content{
+    padding: 5% 0;
+    display: flex;
+    justify-content: space-between;
+    height: 80%;
+    width: 100%;
+    font-family: var(--font2);
+}
+
+.copyright{
+    border-top: 1px solid var(--cordetexto);
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-content .sobre-nos{
+    width: 35%;
+}
+
+.footer-content .ajuda .forma{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-content .atualizacoes{
+    display: flex;
+    flex-direction: column;
+}
+
+.copyright img{
+    object-fit: cover;
+    width: 2.5rem;
+    border-radius: 100%;
+}
+
+footer .sobre-nos .footer-redes i{
+    background-color: var(--corbotao);
+    padding: .5rem;
+    border-radius: 50%;
 }
