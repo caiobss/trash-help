@@ -325,16 +325,30 @@ footer{
     width: 35%;
 }
 
+.footer-content .sobre-nos p{
+    margin-bottom: 4%;
+}
+
 .footer-content .ajuda .forma{
     display: flex;
     flex-direction: column;
+}
+
+.forma a{
+    padding: 1% 0;
+    text-decoration: none;
 }
 
 .footer-content .atualizacoes{
     display: flex;
     flex-direction: column;
 }
-
+.footer-content .atualizacoes h2{
+    margin-bottom: 5%;
+}
+.footer-content .atualizacoes input{
+    margin-bottom: 10%;
+}
 .copyright img{
     object-fit: cover;
     width: 2.5rem;
