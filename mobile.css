@@ -1,64 +1,5 @@
 /*Responsivo da página*/
 
-/*responsivo geral de texto*/
-    
-@media (max-width: 800px){
-    .team-txt p{
-        font-size: 14px;
-    }
-
-    .problem-txt{
-        font-size: 14px;
-    }
-
-    .solution-txt p{
-        font-size: 14px;
-    }
-
-    .donete-content p{
-        font-size: 14px;
-    }
-    
-    /*responsivo do banner*/
-
-    .banner-content .banner-txt h1{
-        font-size: 30px;
-    }
-
-    .banner-content .banner-txt p{
-        font-size: 14px;
-    }
-
-    .banner-content .banner-txt .home-bnt{
-        font-size: 1rem;
-        padding: .6rem 1.5rem;
-    }
-
-    .social-media .rede{
-        font-size: 1.2rem;
-        padding: .7rem;
-
-    }
-
-    /*responsivo do footer*/
-
-    footer{
-        font-size: 14px;
-    }
-
-    footer .footer-content div{
-        margin-right: 2%;
-    }
-
-    footer .sobre-nos .social-media{
-        display: flex;
-    }
-
-    footer .sobre-nos .social-media .rede{
-        margin-right: 10%;
-    }
-}
-
 @media (orientation: portrait){
 
     /*responsivo da sessao de problemas*/
@@ -78,7 +19,66 @@
             width: 100%;
         }
     }
+
+    /*Estilização de texto no geral*/
     
+    @media (max-width: 800px){
+        .team-txt p{
+            font-size: 14px;
+        }
+    
+        .problem-txt{
+            font-size: 14px;
+        }
+    
+        .solution-txt p{
+            font-size: 14px;
+        }
+    
+        .donete-content p{
+            font-size: 14px;
+        }
+        
+        /*responsivo do banner*/
+    
+        .banner-content .banner-txt h1{
+            font-size: 30px;
+        }
+    
+        .banner-content .banner-txt p{
+            font-size: 14px;
+        }
+    
+        .banner-content .banner-txt .home-bnt{
+            font-size: 1rem;
+            padding: .6rem 1.5rem;
+        }
+    
+        .social-media .rede{
+            font-size: 1.2rem;
+            padding: .7rem;
+    
+        }
+    
+        /*responsivo do footer*/
+    
+        footer{
+            font-size: 14px;
+        }
+    
+        footer .footer-content div{
+            margin-right: 2%;
+        }
+    
+        footer .sobre-nos .social-media{
+            display: flex;
+        }
+    
+        footer .sobre-nos .social-media .rede{
+            margin-right: 10%;
+        }
+    }    
+
     /*responsivo do header*/
     
     @media (max-width: 670px){
@@ -109,6 +109,7 @@
             padding: 25% 0;
             right: 0%;
         }
+
          /*barra hamburguer*/
     
         .hamburguer{
@@ -136,7 +137,11 @@
 }
 
 @media (orientation: landscape){
+
+    /*Estilização geral de texto*/
+
     @media (max-width: 1000px){
+        /*responsivo do banner*/
         .banner-content .banner-txt h1{
             font-size: 30px;
         }
@@ -155,5 +160,40 @@
             padding: .7rem;
     
         }
+
+        .team-txt p{
+            font-size: 14px;
+        }
+    
+        .problem-txt{
+            font-size: 14px;
+        }
+    
+        .solution-txt p{
+            font-size: 14px;
+        }
+    
+        .donete-content p{
+            font-size: 14px;
+        }
+    
+        /*responsivo do footer*/
+    
+        footer{
+            font-size: 14px;
+        }
+    
+        footer .footer-content div{
+            margin-right: 2%;
+        }
+    
+        footer .sobre-nos .social-media{
+            display: flex;
+        }
+    
+        footer .sobre-nos .social-media .rede{
+            margin-right: 10%;
+        }
+        
     }
 }

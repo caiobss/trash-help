@@ -317,7 +317,7 @@ header .menu a{
 
 footer{
     background-color: var(--background3);
-    padding: 0 4%;
+    padding: 0 5%;
     display: flex;
     flex-direction: column;
 }
@@ -364,8 +364,8 @@ footer .copyright{
 }
 
 footer .copyright img{
-    height: 3%;
-    width: 3%;
+    height: 3rem;
+    width: 3rem;
     object-fit: cover;
     border-radius: 100%;
 }
