@@ -417,11 +417,13 @@ footer .footer-content {
 }
 
 .atualizacoes input {
+  background-color: var(--cordetexto);
   color: var(--background1);
   outline: none;
   width: 100%;
   padding: 2% 1%;
   margin-bottom: 5%;
+  border: none;
 }
 
 .footer-content div h2 {
