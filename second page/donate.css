@@ -1,0 +1,92 @@
+/*segunda página sessao de tipos doações*/
+
+/*sessao de tipos de doações*/
+
+.sessao-helpthem{
+    padding-top: 12vh;
+    background-color: var(--background2);
+    width: 100%;
+}
+
+.tipos-donate{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.donete-way{
+    background-color: var(--cordetexto);
+    height: 15.6rem;
+    min-width: 26%;
+    border-radius: 10px;
+    margin: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.donete-way:hover{
+    box-shadow: -15px 15px 1px rgba(22, 21, 21, 0.486);
+}
+
+.donete-way:hover i{
+    color: var(--corbotaohover);
+    font-size: 5rem;
+}
+
+.donete-way i{
+    color: var(--background1);
+    font-size: 3.5rem;
+}
+
+/*carrosel de noticias*/
+
+.section-info-slide{
+    background-color: var(--background2);
+    padding-top: 12vh;
+}
+
+.info-slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 8%;
+    
+}
+
+.info-slide i{
+    background-color: var(--background3);
+    padding: 2%;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.infos-content{
+    background-color: var(--background1);
+    position: relative;
+    width: 85%;
+    height: 30%;
+}
+
+.infos-content img{
+    object-fit: cover;
+    width: 100%;
+    height: 60vh;
+    opacity: .5;
+}
+
+.infos-content .infos-content-txt{
+    position: absolute;
+    top: 50%;
+    transform: translate(-30%, -50%);
+    left: 30%;
+    width: 85%;
+}
+
+.infos-content .infos-content-txt p{
+    padding: 1rem 0;
+}
