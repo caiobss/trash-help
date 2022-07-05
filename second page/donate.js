@@ -1,22 +1,22 @@
 const comunidades =[
     {
         imgcomunidades: '/img/comunidade do pilar.jpg',
-        txtcomunidade: 'essa aqui falta tudo'
+        txtcomunidade: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat repudiandae quaerat, aut itaque sunt ullam maxime rem totam, eaque asperiores facere nihil cumque veritatis distinctio consectetur! Et voluptatibus nulla aperiam.'
     },
 
     {
         imgcomunidades: '/img/danilo-alvesd-RZlA_V9DhvE-unsplash.jpg',
-        txtcomunidade: 'Essa aqui agalou tudo'
+        txtcomunidade: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat repudiandae quaerat, aut itaque sunt ullam maxime rem totam, eaque asperiores facere nihil cumque veritatis distinctio consectetur! Et voluptatibus nulla aperiam.'
     },
 
     {
         imgcomunidades: '/img/comunidade2.jpg',
-        txtcomunidade: 'Essa aqui agalou tudo'
+        txtcomunidade: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat repudiandae quaerat, aut itaque sunt ullam maxime rem totam, eaque asperiores facere nihil cumque veritatis distinctio consectetur! Et voluptatibus nulla aperiam.'
     },
 
     {
         imgcomunidades: '/img/comunidade3.jpg',
-        txtcomunidade: 'essa comunidade ta so o pó'
+        txtcomunidade: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat repudiandae quaerat, aut itaque sunt ullam maxime rem totam, eaque asperiores facere nihil cumque veritatis distinctio consectetur! Et voluptatibus nulla aperiam.'
     }
 ]
 
