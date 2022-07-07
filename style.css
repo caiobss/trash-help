@@ -331,6 +331,7 @@ header .menu a{
 }
 
 .donete-content p{
+    font-size: 1.3rem;
     padding: 0 25%;
     margin-bottom: 5%;
 }
