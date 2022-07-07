@@ -11,7 +11,7 @@ const comunidades =[
 
     {
         imgcomunidades: '/img/comunidade2.jpg',
-        txtcomunidade: 'jairo Walterlan da Silva, 28, não tem emprego fixo. Ele conta que a falta de trabalho formal é um problema crônico da comunidade. “Boa parte das pessoas daqui está desempregada. O pessoal trabalha com comércio, vendendo bebida. Com essa situação toda, todo mundo está sem ter de onde tirar o sustento”, relatou. Segundo ele, seus vizinhos estão procurando se cuidar na medida do possível. “A gente busca lavar as mãos e zela para os mais velhos não irem muito à rua”, contou.'
+        txtcomunidade: 'Jairo Walterlan da Silva, 28, não tem emprego fixo. Ele conta que a falta de trabalho formal é um problema crônico da comunidade. “Boa parte das pessoas daqui está desempregada. O pessoal trabalha com comércio, vendendo bebida. Com essa situação toda, todo mundo está sem ter de onde tirar o sustento”, relatou. Segundo ele, seus vizinhos estão procurando se cuidar na medida do possível. “A gente busca lavar as mãos e zela para os mais velhos não irem muito à rua”, contou.'
     },
 
     {
